@@ -1,0 +1,29 @@
+# Week 2 – Vulnerability Assessment and Penetration Testing (VAPT)
+
+## Objective
+To perform vulnerability assessment, exploitation, and post-exploitation on a vulnerable system using standard penetration testing tools.
+
+## Tools Used
+- Kali Linux
+- OpenVAS
+- Metasploit Framework
+
+## Workflow / Steps Performed
+
+### 1. Target Verification
+The target system (Metasploitable2) was verified for network connectivity using ping to ensure it was reachable.
+
+### 2. Vulnerability Scanning
+A full vulnerability scan was conducted using OpenVAS to identify potential security weaknesses and classify them based on severity.
+
+### 3. Exploitation
+Based on scan results, a vulnerable FTP service was exploited using Metasploit. Successful exploitation resulted in command shell access with root privileges.
+
+### 4. Post-Exploitation
+After gaining access, system information and privilege level were verified to confirm successful compromise.
+
+### 5. Evidence Collection
+A system file was hashed using the SHA-256 algorithm to demonstrate proper evidence collection and integrity verification.
+
+## Conclusion
+This task provided hands-on experience in performing a complete VAPT cycle, including scanning, exploitation, validation, and documentation.
